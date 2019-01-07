@@ -1,0 +1,43 @@
+= Sweety
+
+A sample ruby on rails application for keeping track of daily blood glucose
+levels and creating various reports from that information.
+
+==Technologies Used:
+
+* Ruby version
+  * ruby 2.0.0
+
+* System dependencies
+  * mysql
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+  * >rspec
+
+* Services (job queues, cache servers, search engines, etc.)
+  * None
+
+* Deployment instructions
+
+* ...
+
+==Setup Information
+
+>git clone git@github.com:vaneatona/sweety.git
+>cd sweety
+>bundle install (If you want to use mysql instead of sqlite3, uncomment it from
+the Gemfile and add it's information to application.yml)
+
+>rake db:reset
+>rails s for dev server
+
+visit localhost:3000 in your browser
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
